@@ -22,14 +22,27 @@ a:visited {
   color: #247e6c;
 }
 
-h1{
+a:hover {
+  background-color: #e6fff3;
+  color: black;
+}
+
+h1 {
   color: #096386;
 }
 
-h3{
+h3 {
   color: #096386;
 }
 
 text {
   color: black;
+}
+
+.important {
+  color: #722222;
+}
+
+#hobby {
+  color: #111111;
 }
