@@ -2,27 +2,25 @@
   height: 100px;
   width: 100px;
   background-color: red;
-  position: relative;
-  display: inline-block;
+  position: absolute;
   left: 200px;
+  top: 200px;
 }
 
 .blue {
   height: 100px;
   width: 100px;
   background-color: blue;
-  position: relative;
-  /* bottom: 100px; */
-  display: inline-block;
-  right: 100px;
+  position: absolute;
+  left: 100px;
+  top: 100px
 }
 
 .yellow {
   height: 100px;
   width: 100px;
   background-color: yellow;
-  position: relative;
-  /* bottom: 200px; */
-  display: inline-block;
-  right: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
 }
