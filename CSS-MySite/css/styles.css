@@ -1,52 +1,50 @@
 body {
   margin: 0;
+  border-width: 0;
+  text-align: center;
+  background-color: #34ce34;
 }
 
 h1 {
   margin: 0;
 }
 
-div {
-  border-style: solid;
-  border-color: black;
-}
-
 .top-container {
-  background-color: #f0ece2;
-  padding: 20px;
-  width: 200px;
-  height: 200px;
-  border-width: 10px;
+  background-color: #c8e6f5;
 }
 
 .middle-container {
-  margin-left: 260px;
-  width: 200px;
-  height: 200px;
   background-color: red;
-  border-width: 20px;
+  height: 0;
 }
 
 .bottom-container {
-  margin-left: 500px;
-  border-width: 10px;
-  width: 200px;
-  height: 200px;
-  background-color: yellow;
+  /* background-color: #34ce34; */
+  height: 0;
 }
 
 .pro {
   text-decoration: underline;
 }
 
-.red {
-
+.top-cloud {
+  position: relative;
+  left: 150px;
+  top: 10px;
 }
 
-.blue {
-
+.left-cloud {
+  position: absolute;
+  top: 150px;
+  left: 100px;
 }
 
-.yellow {
+.right-cloud {
+  position: absolute;
+  top: 300px;
+  right: 150px;
+}
 
+img {
+  vertical-align: bottom
 }

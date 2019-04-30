@@ -21,6 +21,6 @@
   width: 100px;
   background-color: yellow;
   position: absolute;
-  left: 0;
-  top: 0;
+  left: 0; /* to avoid this use: body {margin: 0;} */
+  top: 0; /* to avoid this use: body {margin: 0;} */
 }
