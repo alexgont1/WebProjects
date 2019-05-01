@@ -11,11 +11,12 @@ h1 {
 
 .top-container {
   background-color: #c8e6f5;
+  padding-top: 50px;
 }
 
 .middle-container {
-  background-color: red;
-  height: 0;
+  background-color: #c8e6f5;
+
 }
 
 .bottom-container {
