@@ -11,18 +11,21 @@ h1 {
   font-family: 'Charm', cursive;
 }
 
-.top-container {
+.topest {
   background-color: #c8e6f5;
   padding-top: 50px;
 }
 
-.middle-container {
+.top-container {
   background-color: #c8e6f5;
 }
 
+.middle-container {
+  background-color: #34ce34;
+}
+
 .bottom-container {
-  /* background-color: #34ce34; */
-  height: 0;
+  background-color: #3f8f8d;
 }
 
 .pro {
