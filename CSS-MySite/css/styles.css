@@ -2,30 +2,36 @@ body {
   margin: 0;
   border-width: 0;
   text-align: center;
-  background-color: #34ce34;
+  /* background-color: #34ce34; */
   font-family: 'Artifika', serif;
 }
 
 h1 {
   margin: 0;
+  font-size: 50px;
   font-family: 'Charm', cursive;
 }
 
 .topest {
   background-color: #c8e6f5;
-  padding-top: 50px;
+  padding-top: 30px;
 }
 
 .top-container {
   background-color: #c8e6f5;
+  padding-top: 30px;
 }
 
 .middle-container {
-  background-color: #34ce34;
+  background-color: #555555;
 }
 
 .bottom-container {
   background-color: #3f8f8d;
+}
+
+p {
+  font-size: 20px;
 }
 
 .pro {
