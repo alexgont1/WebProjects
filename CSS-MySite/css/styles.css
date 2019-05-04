@@ -12,6 +12,11 @@ h1 {
   font-family: 'Charm', cursive;
 }
 
+h2 {
+  margin: 0;
+  font-size: 25px;
+}
+
 .topest {
   background-color: #c8e6f5;
   padding-top: 30px;
@@ -22,8 +27,13 @@ h1 {
   padding-top: 30px;
 }
 
+.grass {
+  background-color: #34ce34;
+  height: 30px;
+}
+
 .middle-container {
-  background-color: #555555;
+  background-color: #e8ecd6;
 }
 
 .bottom-container {
@@ -32,6 +42,8 @@ h1 {
 
 p {
   font-size: 20px;
+  margin: 0;
+  padding: 5px;
 }
 
 .pro {
@@ -56,6 +68,6 @@ p {
   right: 150px;
 }
 
-img {
+.back {
   vertical-align: bottom
 }
