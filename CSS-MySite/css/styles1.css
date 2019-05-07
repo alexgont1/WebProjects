@@ -1,24 +1,24 @@
 .red {
-  height: 100px;
-  width: 100px;
+  height: 100;
+  width: 100;
   background-color: red;
   position: absolute;
-  left: 200px;
-  top: 200px;
+  left: 200;
+  top: 200;
 }
 
 .blue {
-  height: 100px;
-  width: 100px;
+  height: 100;
+  width: 100;
   background-color: blue;
   position: absolute;
-  left: 100px;
-  top: 100px
+  left: 100;
+  top: 100
 }
 
 .yellow {
-  height: 100px;
-  width: 100px;
+  height: 100;
+  width: 100;
   background-color: yellow;
   position: absolute;
   left: 0; /* to avoid this use: body {margin: 0;} */

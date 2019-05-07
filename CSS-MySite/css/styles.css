@@ -50,7 +50,7 @@ p {
 .p-top {
   font-family:Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New;
   font-size: 2rem;
-  font-weight: normal;
+  font-weight: bolder;
   line-height: 2;
   margin-bottom: 50px;
 }
@@ -79,4 +79,17 @@ p {
 
 .back {
   vertical-align: bottom
+}
+
+.skill-row {
+  width: 50%;
+  margin: auto;
+}
+
+.skils {
+  text-align: center;
+}
+
+.love {
+  color: red;
 }
