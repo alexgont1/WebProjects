@@ -93,3 +93,20 @@ p {
 .love {
   color: red;
 }
+
+.lowest {
+  margin: 0;
+}
+
+.author {
+  background-color: #f1f1f1;
+  color: #aaaaaa;
+  font-size: 0.8rem;
+  padding: 10px;
+}
+
+.imprint {
+  color: #aaaaaa;
+  margin-left: 200px;
+  text-decoration: none;
+}
