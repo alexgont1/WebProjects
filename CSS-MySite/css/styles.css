@@ -104,8 +104,15 @@ p {
 }
 
 .imprint {
-  color: #aaaaaa;
   margin-left: 200px;
+  color: #aaaaaa;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.imprint-link {
+  margin-left: 200px;
+  color: #aaaaff;
   text-decoration: none;
 }
 
@@ -116,6 +123,12 @@ p {
 
 .home {
   color: #aaaaaa;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.home-link {
+  color: #aaaaff;
   text-decoration: none;
 }
 
