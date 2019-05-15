@@ -57,6 +57,11 @@ p {
   text-decoration: underline;
 }
 
+.profile {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
 .top-cloud {
   position: relative;
   left: 150px;
