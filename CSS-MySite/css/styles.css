@@ -12,8 +12,16 @@ h1 {
 }
 
 h2 {
-  margin: 0;
   font-size: 2.3rem;
+  margin: 0;
+  line-height: 100px;
+}
+
+hr {
+  border-style: dotted none none none;
+  border-color: #ffffff;
+  border-width: 10px;
+  width: 30%;
 }
 
 .topest {
@@ -121,6 +129,7 @@ p {
 .imprint-content {
   background-color: #e8ecd6;
   min-height: calc(100vh - 180px);
+  line-height: 50px;
 }
 
 .home {
@@ -152,4 +161,5 @@ p {
 
 .btn {
   min-height: 50px;
+  line-height: 50px;
 }
