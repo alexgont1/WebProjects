@@ -50,7 +50,7 @@ p {
 }
 
 .p-top {
-  font-family:Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New;
+  font-family: Consolas, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New;
   font-size: 2rem;
   font-weight: bolder;
   line-height: 2;
@@ -130,6 +130,10 @@ p {
   background-color: #e8ecd6;
   min-height: calc(100vh - 180px);
   line-height: 50px;
+}
+
+.thx {
+  color: #aaaaff;
 }
 
 .home {
