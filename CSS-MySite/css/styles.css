@@ -89,8 +89,17 @@ p {
 }
 
 .skill-row {
-  width: 50%;
-  margin: auto;
+  width: 70%;
+  margin: 10px auto 10px auto;
+}
+
+.info {
+  text-align: left;
+}
+
+.coder {
+  width: 100px;
+  display: inline;
 }
 
 .skils {
