@@ -90,16 +90,16 @@ p {
 
 .skill-row {
   width: 70%;
-  margin: 10px auto 10px auto;
+  margin: 20px auto 20px auto;
 }
 
 .info {
   text-align: left;
+  border-spacing: 10px;
 }
 
 .coder {
   width: 100px;
-  display: inline;
 }
 
 .skils {
