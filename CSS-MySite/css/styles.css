@@ -26,7 +26,7 @@ hr {
 
 .topest {
   background-color: #c8e6f5;
-  padding-top: 30px;
+  padding-top: 50px;
 }
 
 .top-container {
@@ -67,21 +67,68 @@ p {
 }
 
 .top-cloud {
-  position: relative;
-  left: 150px;
-  top: 10px;
+  /*position: relative;*/
+  /*left: 150px;*/
+  top:15px;
+  left: 600px;
+  position:absolute;
+  -webkit-animation:linear infinite alternate;
+  -webkit-animation-name: run1;
+  -webkit-animation-duration: 50s;
+  -moz-animation:linear infinite alternate;
+  -moz-animation-name: run1;
+  -moz-animation-duration: 50s;
+  -webkit-animation-delay: 3s;
+  -moz-animation-delay: 3s;
 }
+
+@-webkit-keyframes run1 {
+  0% { left: 600px;}
+  50%{ left : 90%;}
+  100%{ left: 600px;}
+}
+
 
 .left-cloud {
   position: absolute;
   top: 250px;
   left: 100px;
+  animation-delay: 5s;
+  -webkit-animation:linear infinite alternate;
+  -webkit-animation-name: run2;
+  -webkit-animation-duration: 70s;
+  -moz-animation:linear infinite alternate;
+  -moz-animation-name: run2;
+  -moz-animation-duration: 70s;
+  -webkit-animation-delay: 8s;
+  -moz-animation-delay: 8s;
+}
+
+@-webkit-keyframes run2 {
+  0% { left: 100px;}
+  50%{ left : 30%;}
+  100%{ left: 100px;}
 }
 
 .right-cloud {
   position: absolute;
   top: 350px;
   right: 100px;
+  animation-delay: 7s;
+  -webkit-animation:linear infinite alternate;
+  -webkit-animation-name: run3;
+  -webkit-animation-duration: 90s;
+  -moz-animation:linear infinite alternate;
+  -moz-animation-name: run3;
+  -moz-animation-duration: 90s;
+  -webkit-animation-delay: 10s;
+  -moz-animation-delay: 10s;
+}
+
+@-webkit-keyframes run3 {
+  0% { right: 100px;}
+  50%{ right: 50%;}
+  100%{ right: 100px;}
 }
 
 .back {
