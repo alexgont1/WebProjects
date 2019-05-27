@@ -252,11 +252,11 @@ p {
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
-  -moz-transition-duration: 0.4s;
-  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 1s;
+  -webkit-transition-duration: 1s;
   /* Safari */
-  -o-transition-duration: 0.4s;
-  transition-duration: 0.4s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
   cursor: pointer;
   border-radius: 20px;
 }
