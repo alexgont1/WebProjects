@@ -159,10 +159,18 @@ p {
   vertical-align: bottom
 }
 
+.skills {
+  width: 50%;
+  margin: auto;
+}
+
 .skill-row {
-  width: 70%;
-  margin: 20px auto 20px auto;
-  line-height: 200%;
+  margin: 30px auto 30px auto;
+  line-height: 2;
+  text-align: left;
+}
+.skills-h {
+  text-align: center;
 }
 
 .info {
@@ -170,11 +178,23 @@ p {
   border-spacing: 10px;
 }
 
-.coder {
-  width: 100px;
+.pri {
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+  max-height: 150px;
+  max-width: 150px;
 }
 
-.skils {
+.coder {
+  width: 30%;
+  float: right;
+  margin-left: 30px;
+  max-height: 150px;
+  max-width: 150px;
+}
+
+.p {
   text-align: center;
 }
 
