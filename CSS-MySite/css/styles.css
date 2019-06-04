@@ -239,7 +239,7 @@ p {
 
 .imprint-content {
   background-color: #e8ecd6;
-  min-height: calc(100vh - 180px);
+  min-height: calc(100vh - 176px);
   line-height: 50px;
 }
 
