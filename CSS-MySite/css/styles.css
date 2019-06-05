@@ -83,12 +83,12 @@ p {
   position: absolute;
   -webkit-animation: linear infinite alternate;
   -webkit-animation-name: run1;
-  -webkit-animation-duration: 50s;
+  -webkit-animation-duration: 100s;
   -moz-animation: linear infinite alternate;
   -moz-animation-name: run1;
-  -moz-animation-duration: 50s;
-  -webkit-animation-delay: 3s;
-  -moz-animation-delay: 3s;
+  -moz-animation-duration: 100s;
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
 }
 
 @-webkit-keyframes run1 {
@@ -116,8 +116,8 @@ p {
   -moz-animation: linear infinite alternate;
   -moz-animation-name: run2;
   -moz-animation-duration: 70s;
-  -webkit-animation-delay: 6s;
-  -moz-animation-delay: 6s;
+  -webkit-animation-delay: 3s;
+  -moz-animation-delay: 3s;
 }
 
 @-webkit-keyframes run2 {
@@ -145,8 +145,8 @@ p {
   -moz-animation: linear infinite alternate;
   -moz-animation-name: run3;
   -moz-animation-duration: 90s;
-  -webkit-animation-delay: 9s;
-  -moz-animation-delay: 9s;
+  -webkit-animation-delay: 2s;
+  -moz-animation-delay: 2s;
 }
 
 @-webkit-keyframes run3 {
